@@ -1,0 +1,180 @@
+body{
+    background: #281d36 !important;
+    color: #fff !important;
+}
+.bg-body{
+
+    --bs-bg-opacity: 0 !important;
+}
+.nav-link{
+    color: #fff !important;
+}
+.btn-outline-primary {
+    --bs-btn-color: #fff !important;
+    --bs-btn-border-color: #3FE3F3 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #3FE3F3 !important;
+}
+.nav-link {
+    text-decoration: none; /* Remove default underline */
+    position: relative; /* Add a relative position to the links */
+  }
+  
+  .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px; /* Set the height of the border line */
+    background-color: #3FE3F3; /* Set the color of the border line */
+    position: absolute;
+    bottom: -5px; /* Adjust as needed to position the border line */
+    left: 0;
+    transition: width 0.5s ease; /* Add a smooth transition effect */
+  }
+  
+  .nav-link:hover::after {
+    width: 100%; /* Expand the width to create the animation effect */
+  }
+  .form-label{
+    padding-bottom: 10px;  }
+    .btn-info {
+        --bs-btn-color: #fff !important;
+        --bs-btn-bg: #373053 !important;
+        --bs-btn-border-color: #373053 !important;
+        --bs-btn-hover-color: #fff !important;
+        --bs-btn-hover-bg: #5d518b !important;
+        --bs-btn-hover-border-color:#373053 !important;
+        --bs-btn-focus-shadow-rgb: 11,172,204;
+        --bs-btn-active-color: #fff !important;
+        --bs-btn-active-bg: #373053 !important;
+        --bs-btn-active-border-color:#373053 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        height: 60px;
+        --bs-btn-border-radius:15px !important;
+    }
+footer{
+    background: #262642 !important;
+
+}
+.form-control{
+    background:#3b3c4e !important;
+    color: #fff !important;
+    line-height: 2.5 !important;
+    border-radius: 15px !important;
+    border-color: #3b3c4e !important;
+}
+input::placeholder {
+    color: #fff !important; /* Change to your desired color */
+  }
+  footer ul {
+    list-style-type: none !important;
+    margin-left: -26px;
+    color: rgb(237, 232, 232);
+    line-height: 60px;
+    margin-top: 33px;
+ 
+  }
+  footer ul li{
+    cursor: pointer;
+  }
+  /*  Services */
+    #services {
+    padding: 30px 0;
+  }
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div {
+    background:#252540;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+  }
+  .services-list div i {
+    font-size: 23px;
+    cursor: pointer;
+
+  }
+  .services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .services-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .services-list .text-center:hover {
+    background: #494e9f;
+    transform: translateY(-10px);
+  }
+ 
+  
+
+.text-center h6{
+color: #3FE3F3;
+}
+
+.text-center h2{
+    color: #858585 !important;
+    }
+.intro p{
+    font-size: 13px;
+    color: rgb(234, 234, 234) !important;
+}
+.btn-dark {
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #3b278e !important;
+    --bs-btn-border-color: #3b278e !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #24126d !important;
+    --bs-btn-hover-border-color:#24126d !important;
+    --bs-btn-focus-shadow-rgb: 11,172,204;
+    --bs-btn-active-color:#3b278e !important;
+    --bs-btn-active-border-color:#3b278e !important;
+--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    height: 60px;
+    --bs-btn-border-radius:8px !important;
+    padding-right: 131px !important;
+    padding-left: 27px !important;
+}
+
+.text {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; /* Ensure the text doesn't overflow its container */
+}
+
+.toggle-button {
+    cursor: pointer;
+}
+
+  
+  @media only screen and (max-width:960px) {
+    .navbar-brand img{
+        height: 50px !important;
+    }
+    #brandlogo img{
+        margin-top: -4px !important;
+    }
+    #lefti{
+      left:0px !important
+    }
+  }
+
+
+
+
+
+    /* background: linear-gradient(to right,#094282,#6d00ff 70%,#6d00ff 70%); */
