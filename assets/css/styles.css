@@ -42,8 +42,14 @@ body{
     color: white !important;
     border: 1px Solid #fff !important;
     background-color: white !important;
+    margin-top:-20px ;
+    width: 45px; /* Set the desired width */
+    height: 34px; /* Set the desired height */
+    font-size: 16px !important;
   }
-
+  .navbar-toggler-icon {
+    font-size: 14px; /* Set the font size for the icon */
+  }
 
 
 
