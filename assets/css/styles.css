@@ -35,6 +35,18 @@ body{
   .nav-link:hover::after {
     width: 100%; /* Expand the width to create the animation effect */
   }
+
+
+  /* Change the color of the toggle button and its icon to white */
+  .navbar-toggler {
+    color: white !important;
+    border: 1px Solid #fff !important;
+    background-color: white !important;
+  }
+
+
+
+
   .form-label{
     padding-bottom: 10px;  }
     .btn-info {
