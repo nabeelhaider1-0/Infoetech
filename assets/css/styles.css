@@ -176,6 +176,17 @@ color: #3FE3F3;
 .toggle-button {
     cursor: pointer;
 }
+#addressleft{
+  height: 25px;
+    left: -5px;
+    position: relative;
+    top: -3px;
+}
+
+#helloleft{
+  height: 25px;
+    margin-left: -15px !important;
+}
 
   
   @media only screen and (max-width:960px) {
@@ -187,6 +198,9 @@ color: #3FE3F3;
     }
     #lefti{
       left:0px !important
+    }
+    #addressleft{
+      margin-left: 5px !important;
     }
   }
 
