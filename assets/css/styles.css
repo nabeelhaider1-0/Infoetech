@@ -183,10 +183,49 @@ color: #3FE3F3;
     top: -3px;
 }
 
+#workpic{
+  height: 470px;
+  width: 515px;
+}
+
 #helloleft{
   height: 25px;
     margin-left: -15px !important;
 }
+
+
+
+.bullet-content {
+  display: flex;
+  align-items: baseline;
+}
+    .styled-bullet-list {
+  list-style: none; /* Remove default list-style (disc, circle, etc.) */
+  padding-left: 0; /* Remove default padding for list items */
+}
+
+.styled-bullet-list li {
+    display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Vertically center items within the li */
+  margin-bottom: 10px; /* Add some spacing between list items */
+}
+
+/* Style for the bullet character */
+.bullet {
+  font-size: 50px; /* Adjust the font size as desired */
+  margin-right: 10px; /* Add spacing between bullet and text */
+  color: #6d4758; /* Set the color of the bullet point */
+  font-weight: bold; /* Optionally, make the bullet bold */
+  vertical-align: -8px;
+}
+/* Style for the bullet text */
+.bullet-text {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+
 
   
   @media only screen and (max-width:960px) {
@@ -197,7 +236,7 @@ color: #3FE3F3;
         margin-top: -4px !important;
     }
     #lefti{
-      left:0px !important
+      left:0px !important;
     }
     #addressleft{
       margin-left: 5px !important;
@@ -208,6 +247,9 @@ color: #3FE3F3;
     .text-center{
       margin-top: 30px;
     }
+
+
+
   }
 
 
