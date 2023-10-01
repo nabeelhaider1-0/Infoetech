@@ -202,6 +202,9 @@ color: #3FE3F3;
     #addressleft{
       margin-left: 5px !important;
     }
+    #helloleft{
+        margin-left: -10px !important;
+    }
   }
 
 
