@@ -34,7 +34,9 @@ body{
     left: 0;
     transition: width 0.5s ease; /* Add a smooth transition effect */
   }
-  
+  .dropdown-toggle::after {
+display: none !important;
+  }
   .nav-link:hover::after {
     width: 100%; /* Expand the width to create the animation effect */
   }
@@ -381,7 +383,11 @@ color: #9055a2;
   margin-right: 2px;
 }
 
-
+.highlighted {
+  background-color: #0e929e;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+}
   
   @media only screen and (max-width:960px) {
     .navbar-brand img{
