@@ -388,6 +388,9 @@ color: #9055a2;
   color: #fff;
   border-radius: 30px 30px 30px 30px;
 }
+#indbuton{
+  padding: 0px 42px !important;
+}
   
   @media only screen and (max-width:960px) {
     .navbar-brand img{
@@ -442,10 +445,14 @@ footer{
 }
 
 #barr{
-  margin-left: 50px !important;
+  margin-left: 118px !important;
 }
 #bardd{
   margin-top: 20px;
+}
+#indbuton{
+  padding: 0px 16px !important;
+  font-size: 9px;
 }
   }
 
